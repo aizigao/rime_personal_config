@@ -28,8 +28,8 @@ patch:
     # 注字体及大小
     comment_font_face: "PingFang SC"
     comment_font_point: 16
-    horizontal: false
-    # candidate_list_layout: linear
+    horizontal: true
+    candidate_list_layout: linear
 
   preset_color_schemes:
     aizigao:

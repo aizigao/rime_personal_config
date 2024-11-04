@@ -25,7 +25,7 @@ switches:
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: emoji_suggestion
-    reset: 1
+    reset: 0
     states: [ "😔", "😀" ]
 
 engine:

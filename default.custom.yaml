@@ -9,6 +9,7 @@
 patch:
   schema_list:
     - schema: wubixsj_pinyin
+    - schema: xinshijiwubi
     - schema: pinyin_simp
 
   # Menu
