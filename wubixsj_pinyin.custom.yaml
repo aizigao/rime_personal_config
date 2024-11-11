@@ -1,3 +1,11 @@
 # wubi86.custom.yaml
 patch:
   translator/enable_user_dict: false
+  # 'engine/processors/@before 0': predictor
+  # 'engine/translators/@before 0': predict_translator
+  # 'switches/@after last': { name: prediction, states: [ 關閉預測, 開啓預測 ], reset: 1 }
+  #
+  # predictor:
+  #   db: predict.db
+  #   max_candidates: 5
+  #   max_iterations: 1
