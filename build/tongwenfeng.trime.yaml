@@ -6483,16 +6483,76 @@ preset_keyboards:
     author: "暖暖"
     keys:
       [
-        { click: q, key_back_color: bh1, key_text_color: th1, long_click: 1 },
-        { click: w, key_back_color: bh1, key_text_color: th1, long_click: 2 },
-        { click: e, key_back_color: bh1, key_text_color: th1, long_click: 3 },
-        { click: r, key_back_color: bh1, key_text_color: th1, long_click: 4 },
-        { click: t, key_back_color: bh1, key_text_color: th1, long_click: 5 },
-        { click: y, key_back_color: bh1, key_text_color: th1, long_click: 6 },
-        { click: u, key_back_color: bh1, key_text_color: th1, long_click: 7 },
-        { click: i, key_back_color: bh1, key_text_color: th1, long_click: 8 },
-        { click: o, key_back_color: bh1, key_text_color: th1, long_click: 9 },
-        { click: p, key_back_color: bh1, key_text_color: th1, long_click: 0 },
+        {
+          click: q,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 1,
+          swipe_up: 1,
+        },
+        {
+          click: w,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 2,
+          swipe_up: 2,
+        },
+        {
+          click: e,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 3,
+          swipe_up: 3,
+        },
+        {
+          click: r,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 4,
+          swipe_up: 4,
+        },
+        {
+          click: t,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 5,
+          swipe_up: 5,
+        },
+        {
+          click: y,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 6,
+          swipe_up: 6,
+        },
+        {
+          click: u,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 7,
+          swipe_up: 7,
+        },
+        {
+          click: i,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 8,
+          swipe_up: 8,
+        },
+        {
+          click: o,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 9,
+          swipe_up: 9,
+        },
+        {
+          click: p,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 0,
+          swipe_up: 0,
+        },
         { key_back_color: bh2, key_text_color: th2, width: 5 },
         {
           click: a,
@@ -6665,6 +6725,7 @@ preset_keyboards:
           key_text_color: th1,
           label: Zh,
           long_click: 1,
+          swipe_up: 1,
           width: 15.5,
         },
         {
@@ -6673,6 +6734,7 @@ preset_keyboards:
           key_text_color: th1,
           label: Sh,
           long_click: 2,
+          swipe_up: 2,
           width: 12.5,
         },
         {
@@ -6681,6 +6743,7 @@ preset_keyboards:
           key_text_color: th1,
           label: Ch,
           long_click: 3,
+          swipe_up: 3,
           width: 12,
         },
         {
@@ -6729,6 +6792,7 @@ preset_keyboards:
           key_text_color: th2,
           label: L,
           long_click: 4,
+          swipe_up: 4,
           width: 15.5,
         },
         {
@@ -6737,6 +6801,7 @@ preset_keyboards:
           key_text_color: th2,
           label: D,
           long_click: 5,
+          swipe_up: 5,
           repeatable: true,
           width: 11.5,
         },
@@ -6746,6 +6811,7 @@ preset_keyboards:
           key_text_color: th2,
           label: Y,
           long_click: 6,
+          swipe_up: 6,
           width: 11.5,
         },
         {
@@ -6798,6 +6864,7 @@ preset_keyboards:
           key_text_color: th3,
           label: PK,
           long_click: 7,
+          swipe_up: 7,
           width: 15.5,
         },
         {
@@ -6806,6 +6873,7 @@ preset_keyboards:
           key_text_color: th3,
           label: "Q~",
           long_click: 8,
+          swipe_up: 8,
           width: 11.5,
         },
         {
@@ -6951,6 +7019,7 @@ preset_keyboards:
           key_text_color: th1,
           label: Zh,
           long_click: 1,
+          swipe_up: 1,
           width: 15.5,
         },
         {
@@ -6960,6 +7029,7 @@ preset_keyboards:
           key_text_color: th1,
           label: Sh,
           long_click: 2,
+          swipe_up: 2,
           width: 12.5,
         },
         {
@@ -6969,6 +7039,7 @@ preset_keyboards:
           key_text_color: th1,
           label: Ch,
           long_click: 3,
+          swipe_up: 3,
           width: 12,
         },
         {
@@ -7022,6 +7093,7 @@ preset_keyboards:
           key_text_color: th2,
           label: L,
           long_click: 4,
+          swipe_up: 4,
           width: 15.5,
         },
         {
@@ -7031,6 +7103,7 @@ preset_keyboards:
           key_text_color: th2,
           label: D,
           long_click: 5,
+          swipe_up: 5,
           width: 11.5,
         },
         {
@@ -7040,6 +7113,7 @@ preset_keyboards:
           key_text_color: th2,
           label: Y,
           long_click: 6,
+          swipe_up: 6,
           width: 11.5,
         },
         {
@@ -7097,6 +7171,7 @@ preset_keyboards:
           key_text_color: th3,
           label: PK,
           long_click: 7,
+          swipe_up: 7,
           width: 15.5,
         },
         {
@@ -7106,6 +7181,7 @@ preset_keyboards:
           key_text_color: th3,
           label: "Q~",
           long_click: 8,
+          swipe_up: 8,
           width: 11.5,
         },
         {
@@ -7785,16 +7861,76 @@ preset_keyboards:
     author: "暖暖"
     keys:
       [
-        { click: q, key_back_color: bh1, key_text_color: th1, long_click: 1 },
-        { click: w, key_back_color: bh1, key_text_color: th1, long_click: 2 },
-        { click: e, key_back_color: bh1, key_text_color: th1, long_click: 3 },
-        { click: r, key_back_color: bh1, key_text_color: th1, long_click: 4 },
-        { click: t, key_back_color: bh1, key_text_color: th1, long_click: 5 },
-        { click: y, key_back_color: bh1, key_text_color: th1, long_click: 6 },
-        { click: u, key_back_color: bh1, key_text_color: th1, long_click: 7 },
-        { click: i, key_back_color: bh1, key_text_color: th1, long_click: 8 },
-        { click: o, key_back_color: bh1, key_text_color: th1, long_click: 9 },
-        { click: p, key_back_color: bh1, key_text_color: th1, long_click: 0 },
+        {
+          click: q,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 1,
+          swipe_up: 1,
+        },
+        {
+          click: w,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 2,
+          swipe_up: 2,
+        },
+        {
+          click: e,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 3,
+          swipe_up: 3,
+        },
+        {
+          click: r,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 4,
+          swipe_up: 4,
+        },
+        {
+          click: t,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 5,
+          swipe_up: 5,
+        },
+        {
+          click: y,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 6,
+          swipe_up: 6,
+        },
+        {
+          click: u,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 7,
+          swipe_up: 7,
+        },
+        {
+          click: i,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 8,
+          swipe_up: 8,
+        },
+        {
+          click: o,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 9,
+          swipe_up: 9,
+        },
+        {
+          click: p,
+          key_back_color: bh1,
+          key_text_color: th1,
+          long_click: 0,
+          swipe_up: 0,
+        },
         { key_back_color: bh2, key_text_color: th2, width: 5 },
         {
           click: a,
