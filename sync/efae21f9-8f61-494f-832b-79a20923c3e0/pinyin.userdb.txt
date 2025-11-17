@@ -1,0 +1,10 @@
+# Rime user dictionary
+#@/db_name	pinyin
+#@/db_type	userdb
+#@/rime_version	1.13.0
+#@/tick	4
+#@/user_id	efae21f9-8f61-494f-832b-79a20923c3e0
+hen hao 	很好	c=1 d=0.995012 t=4
+pin yin 	拼音	c=1 d=0.99005 t=4
+ya 	呀	c=1 d=1 t=4
+zhe ge 	这个	c=1 d=0.985112 t=4

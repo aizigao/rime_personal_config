@@ -1,0 +1,20 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.14.0
+#@/tick	14
+#@/user_id	388825c2-bb59-448b-bebe-dc37fff9e967
+cong 	從	c=1 d=0.951229 t=14
+duo 	多	c=1 d=0.99005 t=14
+fa 	法	c=1 d=1 t=14
+fa guang gao 	發廣告	c=1 d=1 t=14
+ge 	個	c=1 d=0.960789 t=14
+jiu 	就	c=1 d=0.980199 t=14
+le 	了	c=1 d=0.995012 t=14
+she me 	什麼	c=1 d=0.970446 t=14
+shi 	是	c=1 d=0.965605 t=14
+shu ru 	輸入	c=1 d=1 t=13
+tong wen 	同文	c=1 d=1 t=12
+zhe 	這	c=1 d=0.955997 t=14
+zhe ge 	這個	c=1 d=0.97531 t=14
+zheng chang 	正常	c=1 d=0.985112 t=14

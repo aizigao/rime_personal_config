@@ -1,0 +1,129 @@
+__build_info:
+  rime_version: 1.13.0
+  timestamps:
+    squirrel: 1737643099
+    squirrel.custom: 1763285052
+app_options:
+  com.agilebits.onepassword7:
+    ascii_mode: false
+  "com.agilebits.onepassword7-helper":
+    ascii_mode: false
+  com.apple.ActivityMonitor:
+    ascii_mode: false
+  com.apple.Spotlight:
+    ascii_mode: false
+  com.apple.Terminal:
+    ascii_mode: false
+  com.apple.calculator:
+    ascii_mode: false
+  com.apple.dt.Xcode:
+    ascii_mode: false
+  com.apple.finder:
+    ascii_mode: false
+  com.apple.keychainaccess:
+    ascii_mode: false
+  com.apple.launchpad.launcher:
+    ascii_mode: false
+  com.apple.systempreferences:
+    ascii_mode: false
+  com.eusoft.eudic:
+    ascii_mode: false
+  com.googlecode.iterm2:
+    ascii_mode: false
+  com.jetbrains.datagrip:
+    ascii_mode: false
+  com.jetbrains.intellij:
+    ascii_mode: false
+  com.jetbrains.pycharm:
+    ascii_mode: false
+  com.kapeli.dashdoc:
+    ascii_mode: false
+  com.runningwithcrayons.Alfred:
+    ascii_mode: false
+  com.sequelpro.SequelPro:
+    ascii_mode: false
+  com.sublimetext.3:
+    ascii_mode: false
+  com.svend.uPic:
+    ascii_mode: false
+  io.nteract.nteract:
+    ascii_mode: false
+  io.termix.client:
+    ascii_mode: false
+chord_duration: 0.1
+config_version: 1.0
+keyboard_layout: last
+preset_color_schemes:
+  aizigao:
+    alpha: 1
+    author: aizigao
+    back_color: 0x44413F
+    border_color: 0xe1e1e1
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0x999999
+    hilited_candidate_back_color: 0x349D67
+    hilited_candidate_label_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xCFD5CC
+    hilited_text_color: 0xc6c01a
+    label_color: 0x999999
+    line_spacing: 5
+    mutual_exclusive: false
+    name: aizigao
+    shadow_size: 3
+    spacing: 10
+    text_color: 0x6495ed
+    translucency: false
+  apathy:
+    author: "LIANG Hai "
+    back_color: 0xFFFFFF
+    border_height: 1
+    border_width: 1
+    candidate_format: "%c %@ "
+    candidate_list_layout: linear
+    comment_text_color: 0x999999
+    corner_radius: 4
+    font_face: "PingFangSC-Regular,PingFangTC-Regular"
+    font_point: 14
+    hilited_candidate_back_color: 0xFFF0E4
+    hilited_candidate_text_color: 0xEE6E00
+    horizontal: true
+    inline_preedit: true
+    label_font_face: "PingFangSC-Light,HanaMinA"
+    label_font_point: 12
+    name: "冷漠 / Apathy"
+    text_color: 0x424242
+  jike:
+    author: Ryekee
+    back_color: 0x11E4FF
+    border_height: 0
+    border_width: 0
+    candidate_format: "%c  %@ "
+    candidate_list_layout: linear
+    comment_text_color: 0x000000
+    font_face: "PingFangSC-Medium,PingFangTC-Medium"
+    hilited_candidate_back_color: 0xF4B95F
+    hilited_candidate_text_color: 0xFFFFFF
+    horizontal: true
+    inline_preedit: true
+    label_font_point: 14
+    name: "即刻黄"
+    text_color: 0xFFFFFF
+show_notifications_via_notification_center: true
+show_notifications_when: appropriate
+style:
+  border_height: 0
+  border_width: 0
+  candidate_format: "%c %@"
+  color_scheme: aizigao
+  color_space: srgb
+  comment_font_face: "\"PingFang SC\", 黑体字根"
+  comment_font_point: 16
+  corner_radius: 8
+  font_face: "PingFang SC"
+  font_point: 20
+  hilited_corner_radius: 5
+  horizontal: false
+  inline_preedit: true
+  label_font_face: "PingFang SC"
+  label_font_point: 13

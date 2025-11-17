@@ -1,0 +1,10 @@
+var:
+  last_build_time: 1763287767
+  option:
+    ascii_punct: false
+    extended_charset: false
+  previously_selected_schema: wubi_pinyin
+  schema_access_time:
+    pinyin: 1763286158
+    wubi: 1763286163
+    wubi_pinyin: 1763287985

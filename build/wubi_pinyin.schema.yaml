@@ -1,0 +1,228 @@
+__build_info:
+  rime_version: 1.14.0
+  timestamps:
+    default: 1763287671
+    default.custom: 1763287671
+    key_bindings: 1763287671
+    key_bindings.custom: 0
+    punctuation: 1763287671
+    punctuation.custom: 0
+    wubi_pinyin.custom: 0
+    wubi_pinyin.schema: 1763287671
+abc_segmentor:
+  extra_tags:
+    - reverse_lookup
+emoji_switch:
+  inherit_comment: false
+  opencc_config: es.json
+  option_name: show_es
+  tips: none
+engine:
+  filters:
+    - "simplifier@emoji_switch"
+    - simplifier
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+    - "lua_translator@time_date"
+    - "lua_translator@calculator"
+    - "lua_translator@helper"
+key_binder:
+  bindings:
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: bracketleft, send: Page_Up, when: paging}
+    - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: "Control+p", send: Up, when: composing}
+    - {accept: "Control+n", send: Down, when: composing}
+    - {accept: "Control+b", send: Left, when: composing}
+    - {accept: "Control+f", send: Right, when: composing}
+    - {accept: "Control+a", send: Home, when: composing}
+    - {accept: "Control+e", send: End, when: composing}
+    - {accept: "Control+d", send: Delete, when: composing}
+    - {accept: "Control+k", send: "Shift+Delete", when: composing}
+    - {accept: "Control+h", send: BackSpace, when: composing}
+    - {accept: "Control+g", send: Escape, when: composing}
+    - {accept: "Control+bracketleft", send: Escape, when: composing}
+    - {accept: "Alt+v", send: Page_Up, when: composing}
+    - {accept: "Control+v", send: Page_Down, when: composing}
+    - {accept: bracketleft, send: Page_Up, when: has_menu}
+    - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: period, send: 3, when: has_menu}
+    - {accept: "Release+dollar", send: period, when: composing}
+    - {accept: "Release+period", send: period, when: composing}
+    - {accept: comma, send: 2, when: has_menu}
+    - {accept: bar, send: 2, when: composing}
+    - {accept: "Release+bar", send: comma, when: composing}
+    - {accept: "Release+comma", send: comma, when: composing}
+    - {accept: Tab, send: Escape, when: composing}
+    - {accept: Caps_Lock, send: Escape, when: composing}
+    - {accept: Shift_R, send: Escape, when: composing}
+    - {accept: KP_0, send: 0, when: composing}
+    - {accept: KP_1, send: 1, when: composing}
+    - {accept: KP_2, send: 2, when: composing}
+    - {accept: KP_3, send: 3, when: composing}
+    - {accept: KP_4, send: 4, when: composing}
+    - {accept: KP_5, send: 5, when: composing}
+    - {accept: KP_6, send: 6, when: composing}
+    - {accept: KP_7, send: 7, when: composing}
+    - {accept: KP_8, send: 8, when: composing}
+    - {accept: KP_9, send: 9, when: composing}
+    - {accept: KP_Decimal, send: period, when: composing}
+    - {accept: KP_Add, send: plus, when: composing}
+    - {accept: KP_Subtract, send: minus, when: composing}
+    - {accept: KP_Multiply, send: asterisk, when: composing}
+    - {accept: KP_Divide, send: slash, when: composing}
+  import_preset: default
+menu:
+  page_size: 5
+punctuator:
+  full_shape:
+    " ": {commit: "　"}
+    "!": {commit: "！"}
+    "\"": {pair: ["“", "”"]}
+    "#": ["＃", "⌘"]
+    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+    "%": ["％", "°", "℃"]
+    "&": "＆"
+    "'": {pair: ["‘", "’"]}
+    "(": "（"
+    ")": "）"
+    "*": ["＊", "·", "・", "×", "※", "❂"]
+    "+": "＋"
+    ",": {commit: "，"}
+    "-": "－"
+    .: {commit: "。"}
+    "/": ["／", "÷"]
+    ":": {commit: "："}
+    ";": {commit: "；"}
+    "<": ["《", "〈", "«", "‹"]
+    "=": "＝"
+    ">": ["》", "〉", "»", "›"]
+    "?": {commit: "？"}
+    "@": ["＠", "☯"]
+    "[": ["「", "【", "〔", "［"]
+    "\\": ["、", "＼"]
+    "]": ["」", "】", "〕", "］"]
+    "^": {commit: "……"}
+    _: "——"
+    "`": "｀"
+    "{": ["『", "〖", "｛"]
+    "|": ["·", "｜", "§", "¦"]
+    "}": ["』", "〗", "｝"]
+    "~": "～"
+  half_shape:
+    "!": {commit: "！"}
+    "\"": {pair: ["“", "”"]}
+    "#": "#"
+    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+    "%": ["%", "％", "°", "℃"]
+    "&": "&"
+    "'": {pair: ["‘", "’"]}
+    "(": "（"
+    ")": "）"
+    "*": ["*", "＊", "·", "・", "×", "※", "❂"]
+    "+": "+"
+    ",": {commit: "，"}
+    "-": "-"
+    .: {commit: "。"}
+    "/": ["、", "/", "／", "÷"]
+    ":": {commit: "："}
+    ";": {commit: "；"}
+    "<": ["《", "〈", "«", "‹"]
+    "=": "="
+    ">": ["》", "〉", "»", "›"]
+    "?": {commit: "？"}
+    "@": "@"
+    "[": ["「", "【", "〔", "［"]
+    "\\": ["、", "\\", "＼"]
+    "]": ["」", "】", "〕", "］"]
+    "^": {commit: "……"}
+    _: "——"
+    "`": "`"
+    "{": ["『", "〖", "｛"]
+    "|": ["·", "|", "｜", "§", "¦"]
+    "}": ["』", "〗", "｝"]
+    "~": ["~", "～"]
+  import_preset: default
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    expression: "^=.*$"
+    punct: ""
+    reverse_lookup: "[a-z`]*`+[a-z`]*"
+    uppercase: ""
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+reverse_lookup:
+  dictionary: pinyin
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  prefix: "`"
+  suffix: "'"
+  tips: "〈拼音〉"
+schema:
+  ascii_icon: "icons/EN.ico"
+  author:
+    - "发明人 王永民先生"
+  dependencies:
+    - pinyin
+  description: |
+    五笔字型＋拼音混输
+    码表源自 ibus-table
+
+  full_icon: "icons/full.ico"
+  half_icon: "icons/half.ico"
+  icon: "icons/CN.ico"
+  name: "五笔拼音"
+  schema_id: wubi_pinyin
+  version: 2.1
+speller:
+  auto_select: false
+  auto_select_unique_candidate: false
+  delimiter: " ;'"
+style:
+  horizontal: true
+  inline_preedit: true
+switches:
+  - name: show_es
+    reset: 0
+    states: ["💀", "😄"]
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    states: ["半角", "全角"]
+  - name: extended_charset
+    states: ["常用", "增廣"]
+  - name: ascii_punct
+    states: ["。，", "．，"]
+translator:
+  dictionary: wubi
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: true
+  enable_encoder: true
+  enable_sentence: true
+  enable_user_dict: false
+  encode_commit_history: true
+  prism: wubi_pinyin
